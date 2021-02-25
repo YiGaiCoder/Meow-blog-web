@@ -1,19 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Button from '@material-ui/core/Button';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment }from 'react';
+import {Header, Footer} from './Components/Layouts';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Button variant="contained" color="primary">
-          Hellow，喵喵
-        </Button>
-      </header>
-    </div>
+    <Fragment>
+      <Header />
+      <Footer />
+    </Fragment>
   );
 }
 
